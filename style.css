@@ -97,6 +97,15 @@ h1,h2{
     color: rgb(2, 61, 2);
     font-size: 15px;
 }
+.right-bottom{
+    float: right;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-bottom>p{
+    justify-content: center;
+}
 
 .main-body-gallery{
     display: flex;
